@@ -37,12 +37,14 @@ RFM stands for:
 **Live Dashboard Link:**
 
 https://datastudio.google.com/reporting/146c68cc-e5c6-4d65-a8a8-41786d28b403
+![Sales Dashboard](dashboard_Preview.png)
 
 ## Repository Files
 - `customer_rfm.csv.csv` – Customer RFM analysis data
 - `customer_segments_summary.csv` – Customer segment summary
 - `dataset_profile.txt` – Dataset information
 - `missing_values.csv` – Missing values analysis
+- `dashboard_Preview.png` – Dashboard screenshot
 
 ## Conclusion
 This project provides insights into sales performance and customer purchasing behavior. The interactive dashboard helps understand key business metrics and customer segments.
