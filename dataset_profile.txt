@@ -1,0 +1,59 @@
+TASK 3 - DATASET INSPECTION
+========================================
+Total Rows: 1000
+Total Columns: 12
+
+COLUMN NAMES:
+['Order_ID', 'Order_Date', 'Customer_ID', 'Customer_Name', 'Age', 'Gender', 'City', 'Product', 'Category', 'Quantity', 'Unit_Price', 'Total_Sales']
+
+DATASET INFORMATION:
+<class 'pandas.DataFrame'>
+RangeIndex: 1000 entries, 0 to 999
+Data columns (total 12 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Order_ID       1000 non-null   str    
+ 1   Order_Date     1000 non-null   str    
+ 2   Customer_ID    1000 non-null   str    
+ 3   Customer_Name  1000 non-null   str    
+ 4   Age            980 non-null    float64
+ 5   Gender         1000 non-null   str    
+ 6   City           987 non-null    str    
+ 7   Product        1000 non-null   str    
+ 8   Category       1000 non-null   str    
+ 9   Quantity       1000 non-null   int64  
+ 10  Unit_Price     1000 non-null   float64
+ 11  Total_Sales    1000 non-null   float64
+dtypes: float64(3), int64(1), str(8)
+memory usage: 93.9 KB
+
+MISSING VALUES:
+Order_ID          0
+Order_Date        0
+Customer_ID       0
+Customer_Name     0
+Age              20
+Gender            0
+City             13
+Product           0
+Category          0
+Quantity          0
+Unit_Price        0
+Total_Sales       0
+
+DUPLICATES:
+0
+
+STATISTICAL SUMMARY:
+         Order_ID  Order_Date Customer_ID Customer_Name         Age Gender   City Product     Category     Quantity    Unit_Price    Total_Sales
+count        1000        1000        1000          1000  980.000000   1000    987    1000         1000  1000.000000   1000.000000    1000.000000
+unique        992         342         947           425         NaN      2      8       6            5          NaN           NaN            NaN
+top     ORD100050  2025-04-16    CUST2515  Customer_359         NaN   Male  Patna  Mobile  Electronics          NaN           NaN            NaN
+freq            9          10           3             8         NaN    511    135     184          354          NaN           NaN            NaN
+mean          NaN         NaN         NaN           NaN   41.360204    NaN    NaN     NaN          NaN     5.435000  25486.783410  139399.439650
+std           NaN         NaN         NaN           NaN   13.822597    NaN    NaN     NaN          NaN     2.838632  14179.402361  114100.051546
+min           NaN         NaN         NaN           NaN   18.000000    NaN    NaN     NaN          NaN     1.000000    145.780000     437.340000
+25%           NaN         NaN         NaN           NaN   30.000000    NaN    NaN     NaN          NaN     3.000000  13895.722500   47066.632500
+50%           NaN         NaN         NaN           NaN   41.000000    NaN    NaN     NaN          NaN     5.000000  25398.740000  108594.025000
+75%           NaN         NaN         NaN           NaN   54.000000    NaN    NaN     NaN          NaN     8.000000  37512.382500  203722.882500
+max           NaN         NaN         NaN           NaN   65.000000    NaN    NaN     NaN          NaN    10.000000  49997.530000  493677.500000
